@@ -16,7 +16,7 @@ const Footer = ({ count, setCount, length }) => {
       bg="dark"
       expand="lg"
       variant="dark"
-      style={{ justifyContent: 'center', cursor: 'pointer' }}
+      style={{ justifyContent: 'center', cursor: 'pointer', height: '100px' }}
       fixed="bottom"
       onClick={changeQuestion}
     >
